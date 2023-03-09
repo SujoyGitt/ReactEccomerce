@@ -1,0 +1,15 @@
+
+.container-fluid .services .service_bg{
+background: var(--lightgrey);
+padding: 10px;
+border-radius: 5px;
+}
+.container-fluid .services svg{
+  color: var(--blue);
+}
+.container-fluid .services .servicelogo{
+  background: var(--white);
+  padding: 15px;
+  border-radius: 50%;
+display: inline-block;
+}

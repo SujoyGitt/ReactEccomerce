@@ -1,0 +1,11 @@
+.contact{
+  font-family: monospace;
+}
+.contact p{
+  font-weight: 700;
+}
+.contact .btn{
+  background: var(--blue);
+  border-radius: 0%;
+  color: var(--white);
+}

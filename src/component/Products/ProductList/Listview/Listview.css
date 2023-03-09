@@ -1,0 +1,36 @@
+.Listview{
+  overflow: hidden;
+}
+.listviewimg{
+  position: relative;
+}
+.listviewimg img{
+  transition: .4s;
+}
+.listviewimg:hover img{
+  transform: scale(1.1);
+}
+.listviewimg::after{
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.247);
+  transition: .4s;
+}
+.listviewimg:hover::after{
+  width: 100%;
+}
+.Listview .btn{
+  background: var(--blue);
+  border-radius: 0%;
+  color: var(--white);
+  font-size: 14px;
+}
+.Listview .btn:hover{
+  border:1px solid var(--blue);
+  color: var(--blue);
+  background: transparent;
+}

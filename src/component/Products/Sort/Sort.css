@@ -1,0 +1,21 @@
+.view .list,.grid{
+  background: var(--lightgrey);
+ cursor: pointer;
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ text-align: center;
+ line-height: 50px;
+ margin-left: 10px;
+}
+.view .list svg,.grid svg{
+  text-align: center;
+  color: rgb(41, 41, 41);
+  font-size: 30px;
+}
+.view .active{
+  background: var(--black);
+}
+.view .active svg{
+  color: var(--white);
+}

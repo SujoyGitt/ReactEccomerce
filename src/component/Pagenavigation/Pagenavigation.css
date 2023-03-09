@@ -1,0 +1,6 @@
+.pagenavigation{
+  background: var(--lightgrey);
+}
+.pagenavigation a{
+  color: var(--blue);
+}

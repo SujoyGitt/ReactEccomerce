@@ -1,0 +1,70 @@
+
+
+.filtersection .downarrow{
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.filtersection .downarrow svg{
+  font-size: 50px;
+  transform: rotate(180deg);
+  transition: .4s;
+}
+.filter-search input{
+  outline: none;
+}
+.filter-catagory button {
+  border: none;
+  outline: none;
+  background: none;
+}
+.filter-catagory button:focus{
+  border-bottom: 1px solid var(--blue);
+}
+#colors{
+ border: none;
+ outline: none;
+  border-radius: 50%;
+  opacity: .5;
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 10px;
+}
+#colors:nth-child(1){
+  transform: translateY(-5px);
+}
+#colors:hover{
+  opacity: 1;
+}
+.filter-colors .col-12 .btnactive{
+  transform: translateY(-4px);
+  opacity: 1 !important;
+}
+.filter-clear .btn{
+  border: none;
+  outline: none;
+  padding: 12px 25px;
+  background:var(--blue); 
+  border-radius: 0px;
+  color: var(--white);
+}
+@media (max-width:767px) {
+  .filtersection{
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    transition: .3s;
+  }
+  .activerotate{
+    height: 120vh;
+    overflow: visible;
+  }
+
+  .activerotate .downarrow svg{
+    transform: rotate(0deg);
+  }
+}

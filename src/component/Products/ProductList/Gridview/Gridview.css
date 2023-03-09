@@ -1,0 +1,27 @@
+@media (max-width:1400px) {
+  .gridview a{
+    width: 33.3%;
+    height: 200px;
+    background: whitesmoke;
+  } 
+
+  .grid .featureservice{
+    height: 220px;
+    position: relative;
+  }
+  .grid .featureservice::after{
+    content: "";
+    height: 90%;
+    position: absolute;
+  }
+}
+@media (max-width:989px) {
+  .gridview a{
+    width: 50%;
+  } 
+}
+@media (max-width:576px) {
+  .gridview a{
+    width: 100%;
+  } 
+}

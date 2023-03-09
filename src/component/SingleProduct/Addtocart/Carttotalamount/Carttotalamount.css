@@ -1,0 +1,11 @@
+.amount-toggle button{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.cart-button a{
+  background: var(--blue) !important;
+  border-radius: 0px;
+  text-decoration: none;
+  color: var(--white);
+}

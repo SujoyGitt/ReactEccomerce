@@ -1,0 +1,27 @@
+.setStyleerror{
+  width: 100%;
+  height: 100%;
+}
+.setStyleerror h1 {
+  font-size: 10rem;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  background: url(afternoon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: text;
+  color: transparent;
+}
+.setStyleerror p {
+  padding: 10px 5px;
+}
+.setStyleerror button {
+  padding: 8px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(34, 34, 34);
+  color: rgb(179, 179, 179);
+}

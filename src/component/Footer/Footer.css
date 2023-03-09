@@ -1,0 +1,60 @@
+:root{
+  --footerblack:rgb(0, 29, 53);
+}
+.footer{
+  background: var(--footerblack);
+  color: rgb(238, 238, 238);
+  font-size: 14px;
+  margin-top: 70px;
+}
+.footer .container .footer_parent{
+  position: relative;
+}
+.footer .footer_top{
+  width: 100%;
+  background: var(--white);
+  font-size: 14px;
+  color: var(--black);
+  border-radius: 5px;
+  position: absolute;
+  top: -60px;
+  left: 0;
+}
+.footer .footer_top .footer_top_right .btn{
+  border-radius: 0%;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer .footeremail{
+  border: none;
+  outline: none;
+  padding: 10px 5px 10px 15px;
+
+  background: rgb(238, 238, 238);
+}
+.footer input::placeholder{
+  font-size: 12px;
+}
+.footer .btn{
+  background: var(--blue);
+  border-radius: 0%;
+  color: rgb(238, 238, 238);
+  font-size: 14px;
+}
+.footer .footerfollow div a svg{
+  color: rgb(238, 238, 238);
+}
+.footer .footerfollow div a{
+  padding: 4px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 50%;
+  display: inline-block;
+}
+.footer .footerph{
+  color: rgb(238, 238, 238);
+}
+.footer_bottom{
+  font-size: 13px;
+}

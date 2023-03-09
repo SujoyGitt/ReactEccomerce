@@ -1,0 +1,25 @@
+.Trusted {
+  background: var(--lightgrey);
+}
+.Trusted p,svg{
+  color: grey;
+}
+.Trusted svg{
+font-size: 2.3rem;
+}
+.Trusted .trusted_log:nth-child(1){
+  font-weight: 900;
+  color: grey;
+  font-size: 1.2rem;
+}
+.Trusted .trusted_log:nth-child(3){
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+.Trusted .trusted_log{
+  color: grey;
+}
+.Trusted .trusted_log:nth-child(5){
+ font-weight: 500;
+  font-size: 14px;
+}

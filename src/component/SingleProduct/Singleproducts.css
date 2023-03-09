@@ -1,0 +1,15 @@
+
+.Singleproduct p{
+font-size: 13px;
+}
+.Singleproduct .deliveryicon{
+  padding: 5px;
+  background-color: var(--lightgrey);
+  border-radius: 50%;
+}
+.Singleproduct .product_data_warrenty p{
+  font-size: 10px;
+}
+.product-data-info span{
+  font-weight: 600;
+}
